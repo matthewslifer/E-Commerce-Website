@@ -10,7 +10,7 @@ import handler from '../pages/api/hello';
 const Cart = () => {
   const cartRef = useRef();
   const {totalPrice, totalQuantities, cartItems, setShowCart, toggleCartItemQuanitity, onRemove} = useStateContext();
-  const handleCheckout = () -> {
+  const handleCheckout = () => {
 
   }
 
